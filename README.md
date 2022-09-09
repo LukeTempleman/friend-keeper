@@ -7,7 +7,7 @@ It is a simple site that can display and manipulate api data in a table that all
 ## SETUP GUIDE 🔥
 
 
-To run the project localy follow the below steps:
+To run the project locally follow the below steps:
 
 1) Clone this repository
 
