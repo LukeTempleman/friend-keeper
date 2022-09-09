@@ -42,6 +42,7 @@ const App = () => {
   useEffect(() => {
     const filteredRows = filterRows(searchValue);
     setRows(filteredRows);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchValue]);
 
   
@@ -258,17 +259,17 @@ const App = () => {
   );
 };
 
-//Firebase hosting 
-const firebaseConfig = {
-  apiKey: "AIzaSyAAC_04nLOg3ICCW9Qmbe4Y5GOcepy_pBA",
-  authDomain: "friend-keeper-4e151.firebaseapp.com",
-  projectId: "friend-keeper-4e151",
-  storageBucket: "friend-keeper-4e151.appspot.com",
-  messagingSenderId: "171722578772",
-  appId: "1:171722578772:web:9e5bb5a25415a1eda986c1"
-};
+//Firebase hosting for later updates
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAAC_04nLOg3ICCW9Qmbe4Y5GOcepy_pBA",
+//   authDomain: "friend-keeper-4e151.firebaseapp.com",
+//   projectId: "friend-keeper-4e151",
+//   storageBucket: "friend-keeper-4e151.appspot.com",
+//   messagingSenderId: "171722578772",
+//   appId: "1:171722578772:web:9e5bb5a25415a1eda986c1"
+// };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 
 export default App;
