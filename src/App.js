@@ -3,7 +3,7 @@
  */
 
 import React, { useEffect, useState } from "react";
-import { initializeApp } from "firebase/app";
+// import { initializeApp } from "firebase/app";
 import "./App.css";
 import Paper from "@mui/material/Paper";
 import SearchBar from "./components/searchBar";
