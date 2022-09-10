@@ -11,7 +11,7 @@ To run the project locally follow the below steps:
 
 1) Clone this repository
 
-2)Navigate inside your terminal to the projects main directory
+2) Navigate inside your terminal to the projects main directory
 
 3) run: 'npm install'
 
