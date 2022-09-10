@@ -26,5 +26,5 @@ the console will continuously log the current API state
 
 Take a look at the issues section on this repo to see what direction the project is going in aswell as bugs that are present within the codebase
 
-The Project is also coupled with github actions
+The Project is also coupled with github actions and material UI
 
