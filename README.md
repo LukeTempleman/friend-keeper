@@ -20,16 +20,9 @@ To run the project locally follow the below steps:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ## Additional Notes 🤖
 
 Take a look at the issues section on this repo to see what direction the project is going in aswell as bugs that are present within the codebase
 
-
+The Project is also coupled with github actions
 
